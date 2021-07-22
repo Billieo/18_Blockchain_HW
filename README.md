@@ -7,11 +7,6 @@ To start your block on a POA algorithm, you need to create two account that will
 
 you will need to save your Public address of the key for both node1 and node2.
 
-your result should look like the below.
-
-  ![alttext](image/Puppet_configuration_2.png)
-
-
 
 
 
@@ -25,22 +20,24 @@ The following prompt will come up
 - specify your network name.
 - Select 2 to configure genesis block.
 - Select 1 to create new genesis from scratch.
-- Select 2 Clique - proof-of-authority.
-- click enter to select the deflau
+- Select 2 for Clique - proof-of-authority.
+- Click enter to select the default time which is 15mins.
+- Past in node 1 and 2 address for account allowed to be sealed.
+- Past in node 1 and 2 address for account to be pre-funded.
 - Select 2, manager existing genesis.
 - Export genesis configuration.
 
 
--what do you want to do:
-  ![alttext](image/Puppet_configuration_1.png)
-  ![alttext](image/Puppet_configuration_2.png)
+![alttext](image/Puppet_configuration_1.png)
+![alttext](image/Puppet_configuration_2.png)
 
 
 init node
   ![alttext](image/Initnode.png)
 ## Connecting to the network
 while you node are running open Crypto account,
-scroll to the button of the page and click change network.
+scroll to the button of the page and click change network to change to the your network.
+Then select the keystore 
 
 setting up custom node
  - Node name: is the name of the network you selected during puppet configuration.
@@ -49,10 +46,13 @@ setting up custom node
  - Port: we are going to use http://127.0.0.1:8545
  - The click save and use custom node.
 
-
   ![alttext](image/custom_node.png)
 
-Check Transaction sucessfully sent 
+  Click change network again to change to the new network you just created.
+
+Check Transaction status.
+after submitting a transactin
+
   ![alttext](image/check_transaction_status.png)
 
 Transaction sucessfully sent confirmation
