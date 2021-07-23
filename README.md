@@ -38,11 +38,12 @@ The following prompt will come up
 
 
 init node
+
 ![alttext](image/Initnode.png)
 
 ## Connecting to the network
 - While you node are running open Crypto account.
-- Scroll to the button of the page and click change network and then select add custon node.
+- Scroll to the button of the page, click change network and then select add custon node.
 
 ### Setting up custom node
  - Node name: is the name of the network you selected during puppet configuration.
@@ -56,6 +57,7 @@ init node
  - Click change network again to change to the new network you just created.
 
  ![alttext](image/changing_network.png)
+
  - Click the keystore 
  - Select node 1
  - Copy and paste node 2 address in the sent to address. 
