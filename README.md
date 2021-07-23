@@ -39,7 +39,8 @@ The following prompt will come up
 
 init node
 
-![alttext](image/Initnode.png)
+![alttext](image/InitNode.png)
+
 
 ## Connecting to the network
 - While you node are running open Crypto account.
